@@ -1,0 +1,50 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #222831;
+  color: #fff;
+}
+
+#task-container{
+  margin: 0;
+  box-shadow: 0 14px 30px grey, 0 10px 10px grey;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#form-wrapper{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0rem;
+  border-bottom: 1px solid #5a3d55;
+  background-color: #d6efc7;
+  padding: 50px;
+}
+
+#submit{
+  background-color: #07031a;
+  color: #fff;
+  border: 0;
+}
+
+.flex-wrapper{
+  display: flex;
+}
+
+.flex-wrapper div{
+  justify-content: flex-end;
+}
+.task-wrapper{
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+  border-bottom: 1px solid red;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.task-wrapper:hover{
+  background-color: pink;
+}
